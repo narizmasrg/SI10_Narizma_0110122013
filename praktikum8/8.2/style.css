@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: violet;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: pink;
+    flex: 3;
+}
+
+main aside {
+    background-color: whitesmoke;
+    flex: 1;
+}
+
+main nav {
+    background-color: moccasin;
+    flex: 1;
+}
+
+header, footer {
+    background-color: violet;
+    padding: 1rem 0;
+}
